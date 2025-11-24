@@ -192,25 +192,25 @@ const Navbar = () => {
      
     },
     {
-      title: "ACADEMICS",
+      title: "CURRICULUM",
       hasDropdown: true,
-      path: "/curriculum",
       options: [
-        {
-          title: "Curriculum",
-          path: "/curriculum",
-        },
-        {
-          title: "Syllabus",
-          path: "/syllabus",
-        },
-      ],
+  { title: "Overview", path: "/curriculum#overview" },
+  { title: "IGCSE", path: "/curriculum#igcse" },
+  { title: "A Level", path: "/curriculum#alevel" },
+],
+
     },
  
     {
       title: "CONTACT US",
       hasDropdown: false,
       path: "/contact-us/",
+    },
+        {
+      title: "BLOGS",
+      hasDropdown: false,
+      path: "https://www.ecoleglobale.com/blogs",
     },
   ];
 
@@ -222,11 +222,11 @@ const Navbar = () => {
           alt="Main Logo"
           height={1000}
           width={1000}
-          className="w-48 h-20"
+          className="w-28 h-16 md:w-64 md:h-28 object-contain"
         />
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-5 py-3">
+        <div className="hidden md:flex space-x-16 py-3">
           {navItems.map((item, index) => (
             <div
               key={index}

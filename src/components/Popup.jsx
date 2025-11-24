@@ -76,12 +76,10 @@ export default function Popup() {
             <div className="md:absolute md:right-0 w-[465px] md:bg-transparent bg-white md:top-0 px-6 text-black md:text-white">
               <div className="flex flex-row justify-between">
                 <div className="text-center">
-                  <p className="text-[20px] font-bold md:text-[22px] pt-2">
+                  <p className="text-[20px] font-bold md:text-[22px] h-16 text-black pt-2">
                     Enquire Now
                   </p>
-                  <p className="text-[12px] md:text-[16px] pt-4 pb-4">
-                    Submit the form with your details to let us help you...
-                  </p>
+              
                 </div>
                 <button className=" -mt-10" onClick={() => setIsOpen(false)}>
                   <IoClose size={24} />

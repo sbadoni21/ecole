@@ -1,5 +1,6 @@
-"use client"
-import React, { useState } from "react";
+"use client";
+import React, { useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 
 export default function CurriculumPage() {
   const [activeTab, setActiveTab] = useState("overview");
@@ -9,6 +10,21 @@ export default function CurriculumPage() {
     { id: "igcse", label: "Cambridge IGCSE" },
     { id: "alevel", label: "Cambridge A Level" }
   ];
+
+ useEffect(() => {
+  const handleHashChange = () => {
+    const hash = window.location.hash.replace("#", "");
+    if (hash && tabs.some(t => t.id === hash)) {
+      setActiveTab(hash);
+      document.getElementById(hash)?.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  handleHashChange(); // run on initial load
+  window.addEventListener("hashchange", handleHashChange);
+
+  return () => window.removeEventListener("hashchange", handleHashChange);
+}, []);
 
   return (
     <div className="bg-white min-h-screen">
@@ -46,7 +62,7 @@ export default function CurriculumPage() {
       <div className="py-12 md:py-16 px-8 md:px-[99px]">
         {/* Curriculum Overview Tab */}
         {activeTab === "overview" && (
-          <div className="animate-fadeIn">
+          <div  id="overview" className="animate-fadeIn">
             <h2 className="font-semibold text-[28px] md:text-[36px] text-[#b0191e] mb-8">
               Cambridge International Curriculum
             </h2>
@@ -61,7 +77,7 @@ Cambridge qualifications are well respected globally and open doors to universit
 
         {/* Cambridge IGCSE Tab */}
         {activeTab === "igcse" && (
-          <div className="animate-fadeIn">
+          <div id="igcse"  className="animate-fadeIn">
             <h2 className="font-semibold text-[28px] md:text-[36px] text-[#b0191e] mb-8">
               Cambridge IGCSE
             </h2>
@@ -135,7 +151,7 @@ The Cambridge IGCSE is the most widely chosen international qualification for st
 
         {/* Cambridge A Level Tab */}
         {activeTab === "alevel" && (
-          <div className="animate-fadeIn">
+          <div id="alevel" className="animate-fadeIn">
             <h2 className="font-semibold text-[28px] md:text-[36px] text-[#b0191e] mb-8">
               Cambridge AS and A Level
             </h2>

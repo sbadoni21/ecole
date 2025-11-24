@@ -48,7 +48,7 @@ What Sets Ecole Globale Apart
                fill="#b0191e"
              />
            </svg>
-           <div className="text-gray-400 md:text-left text-center md:text-[18px] text-[14px] mt-8">
+           <div className="text-gray-400 md:text-left  md:text-[18px] text-[14px] mt-8 text-justify">
 Ecole Globale International Girls&apos; School is widely recognized as one of the leading institutions for young women. Among several girl boarding schools in Dehradun, it stands apart for offering safe, comfortable, and exceptionally well-managed residential facilities. The school is known for its strong security measures, dependable medical care, warm hospitality, and robust academic ecosystem.
  The dedication of our teachers is remarkable, and our alumni—now excelling in diverse professional fields—regularly share inspiring experiences from their years at Ecole Globale.
            </div>
@@ -56,15 +56,16 @@ Ecole Globale International Girls&apos; School is widely recognized as one of th
              {cardData.map((card) => (
                <div
                  key={card.id}
-                 className="lg:w-[20vw] md:w-[36vw] w-[70vw] h-[250px] shadow-xl shadow-[#CDDAEC] relative bg-white overflow-hidden"
+                 className="lg:w-[20vw] md:w-[36vw] w-[70vw] h-[200px] md:h-[250px] shadow-xl shadow-[#CDDAEC] relative bg-white overflow-hidden"
                >
-                 <div className="rounded-full w-[130px] h-[130px] absolute -top-4 -left-6 bg-gradient-to-r from-[#b0191e] to-[#b0191e] flex items-center justify-center text-white text-4xl">
+                 <div className="rounded-full w-[100px] h-[100px] absolute -top-4 -left-6 bg-gradient-to-r from-[#b0191e] to-[#b0191e] flex items-center justify-center text-white text-4xl">
                    <Image
-                     className="w-[50px] h-[50px]"
+                     className="w-[30px] h-[30px] object-fill"
                      src={card.icon}
                      alt={card.icon}
                      height={1000}
                      width={1000}
+
                    />
                  </div>
                  <div className="absolute top-0 right-4 font-bold text-gray-300 xl:text-[70px] text-[48px]">

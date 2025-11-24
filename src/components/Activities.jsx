@@ -9,7 +9,6 @@ export default function Activities() {
       description:
         "We focus on physical health and keep running various sports activities.",
       image: "/77th-District-Athletics-Meet.png",
-      icon: "/soccer.svg",
     },
     {
       id: 2,
@@ -17,7 +16,6 @@ export default function Activities() {
       description:
         "We take care of making our student experience beyond the study like music, sports, art & craft etc.",
       image: "/Childrens-Day.jpg",
-      icon: "Drawing.svg",
     },
     {
       id: 3,
@@ -25,14 +23,12 @@ export default function Activities() {
       description:
         "Our students value cultural values with respect which is required for society.",
       image: "/ecole-globale-art-culture-3.jpg",
-      icon: "Music.svg",
     },
     {
       id: 4,
       title: "SOCIAL ACTIVITIES",
       description: "Our Students know how the society matters for them.",
       image: "/UWS-Youth-Literature-Festival-150x150.jpg",
-      icon: "Politician.svg",
     },
   ];
   return (
@@ -64,15 +60,7 @@ export default function Activities() {
                   <h3 className=" font-bold text-[16px] text-[#b0191e]">
                     {activity.title}
                   </h3>
-                  <div className="text-xl text-[#b0191e]">
-                    <Image
-                      src={activity.icon}
-                      alt={activity.icon}
-                      height={1000}
-                      width={1000}
-                      className="w-[35px] h-[35px]"
-                    />
-                  </div>
+               
                 </div>
                 <p className="text-gray-600 text-sm">{activity.description}</p>
               </div>
@@ -91,24 +79,16 @@ export default function Activities() {
               alt={activity.title}
               height={1000}
               width={1000}
-              className="w-[300px] h-[300px] object-contain rounded-t-lg"
+              className="w-[300px] h-[300px] object-cover rounded-t-lg"
             />
             <div className="p-4 h-[125px] shadow-lg bg-white absolute bottom-0">
               <div className="flex items-center justify-between mb-2">
                 <h3 className="text-[#b0191e] md:text-xl font-bold">
                   {activity.title}
                 </h3>
-                <div>
-                  <Image
-                    src={activity.icon}
-                    alt={activity.title}
-                    height={1000}
-                    width={1000}
-                      className="w-6 h-6"
-                  />
-                </div>
+             
               </div>
-              <p className="text-[#848484] md:text-lg text-[14px] ">
+              <p className="text-[#848484] md:text-lg text-[14px]  ">
                 {activity.description}
               </p>
             </div>

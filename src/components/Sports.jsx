@@ -24,7 +24,7 @@ A Core Part of Ecole Life
             </div>
             <div className="md:flex md:flex-row md:justify-between flex flex-col items-center">
               <div className="md:w-1/2">
-                <p className="text-[#848484] font-poppins md:text-[18px] text-[14px] md:text-left text-center leading-relaxed mt-4">
+                <p className="text-[#848484] font-poppins md:text-[18px] text-[14px] md:text-left  leading-relaxed mt-4 text-justify">
                  At Ecole Globale, sports and physical education are essential elements of our curriculum. As one of the most respected girl boarding schools in Dehradun, we offer exceptional sports opportunities that support the physical, mental, and emotional development of our learners.
  We believe that sports foster confidence and resilience while shaping students physically, technically, and mentally. This approach strengthens crucial life skills such as teamwork, discipline, leadership, and decision-making—making sports an integral part of every student&apos;s experience at Ecole Globale
                 </p>
@@ -33,43 +33,16 @@ A Core Part of Ecole Life
               <div className="w-1/2 flex justify-end items-end">
                 <div className="md:block hidden w-[512px] h-[400px]">
                   <Image
-                    src="/judo.svg"
+                      src="https://www.ecoleglobale.com/wp-content/uploads/2019/10/ecole-globale-trips-and-expedition.jpg"
                     alt="Judo"
                     width={1000}
                     height={1000}
-                    className="w-full h-full object-cover"
+                    className="w-full h-[37vh] object-cover"
                   />
                 </div>
               </div>
     
-              <div className="">
-                <div className="md:hidden flex justify-between w-full">
-                  <div className="w-[48%]">
-                    <Image
-                      src="/chess.svg"
-                      className="w-full h-auto object-cover "
-                      width={1000}
-                      height={1000}
-                      alt="Chess"
-                    />
-                  </div>
-                  <div className="w-[48%]">
-                    <Image
-                      src="/judo2.svg"
-                      className="w-full h-auto object-cover"
-                      width={1000}
-                      height={1000}
-                      alt="Judo"
-                    />
-                  </div>
-                </div>
-    
-                <div className="md:hidden flex justify-center items-center mt-4">
-                  <button className="text-center px-6 py-2 border border-[#b0191e] text-[#b0191e] rounded-xl text-[14px]">
-                    Explore More..
-                  </button>
-                </div>
-              </div>
+        
             </div>
           </section>
   )

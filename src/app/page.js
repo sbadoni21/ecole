@@ -16,7 +16,6 @@ export default function Home() {
       <Activities />
       <Sports />
       <Life />
-      <NewsData />
       <Faq />
     </div>
   );

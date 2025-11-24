@@ -55,14 +55,12 @@ export default function Form() {
   };
 
   return (
-    <div className="bg-white px-6 md:pb-6 md:pt-3 py-8 rounded-lg w-full md:w-[600px] text-black">
+    <div className="bg-white px-6 md:pb-6 md:pt-3 py-8 rounded-lg w-full md:w-[600px] text-black shadow-lg shadow-gray-500">
       <div className="text-center">
-        <p className="text-[20px] font-bold md:text-[30px] pt-2 text-[#193A65]">
+        <p className="text-[20px] font-bold md:text-[30px] pt-2 text-black">
           Enquire Now
         </p>
-        <p className="text-[12px] md:text-[18px] text-gray-600 pt-4 pb-4">
-          Submit the form with your details to let us help you...
-        </p>
+    
       </div>
       <form onSubmit={sendEmail}>
         <div className="flex flex-col gap-4">

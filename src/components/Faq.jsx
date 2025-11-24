@@ -83,7 +83,7 @@ const Faq = () => {
                   className="w-full flex justify-between items-center cursor-pointer group"
                   onClick={() => handleToggle(item.id)}
                 >
-                  <p className="text-[1rem] font-semibold text-[#000000] transition-colors duration-200">
+                  <p className="text-[14px]  md:text-[18px]  font-semibold text-[#000000]  transition-colors duration-200">
                     {item.question}
                   </p>
                   <div className="transform transition-transform duration-300 ease-in-out">
@@ -111,7 +111,7 @@ const Faq = () => {
                   }`}
                 >
                   <div className="overflow-hidden">
-                    <p className="text-[14px] text-[#000000] pt-2">
+                    <p className="text-[14px]  md:text-[18px]  text-[#000000] pt-2">
                       {item.answer}
                     </p>
                   </div>

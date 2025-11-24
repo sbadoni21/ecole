@@ -33,7 +33,7 @@ export default function Life() {
     <div className="px-8 md:px-20 py-10">
     <div className="flex flex-col items-center text-center">
       <h3 className="text-gray-400 mb-3 uppercase tracking-wide">Life</h3>
-      <h1 className="text-[#b0191e] text-[29px] font-bold">LIFE @ Ecole Globale International Girls School in Dehradun </h1>
+      <h1 className="text-[#b0191e] text-[29px] font-bold">LIFE @ Ecole Globale International Girls School </h1>
       <svg
         viewBox="0 0 100 20"
         preserveAspectRatio="none"
@@ -52,15 +52,7 @@ export default function Life() {
           key={feature.id}
           className="flex flex-col justify-center items-center space-y-4 md:space-x-4 md:space-y-0 md:flex-row"
         >
-          <div className="flex-shrink-0">
-            <Image
-              src={feature.image}
-              alt={feature.title}
-              className="w-[30px] h-[30px] md:w-[50px] md:h-[50px] object-contain"
-              width={1000}
-              height={1000}
-            />
-          </div>
+         
           <div className="font-semibold text-center md:text-left text-[12px] md:text-[16px]">
             <p>{feature.title}</p>
             {feature.subtitle && <p>{feature.subtitle}</p>}
@@ -81,12 +73,12 @@ export default function Life() {
       </div>
 
       <div className="w-full md:w-1/2">
-        <p className="text-[#848484] text-[18px] leading-relaxed">
-Ecole Globale brings together students from diverse cultures and regions, creating a dynamic learning environment that enhances the overall boarding school experience. For every girl studying here, life at Ecole becomes a memorable journey filled with strong academics, supportive friendships, and meaningful opportunities. Smart classrooms, sports, cultural events, and educational excursions equip learners with essential skills and confidence to navigate future challenges.
+        <p className="text-[#848484] text-[14px]  md:text-[18px]  text-justify">
+Ecole Globale brings together students from diverse cultures and regions, creating a dynamic learning environment that enhances the overall boarding school experience. For every girl studying here, life at Ecole becomes a memorable journey filled with strong academics, supportive friendships, and meaningful opportunities.         <br /> Smart classrooms, sports, cultural events, and educational excursions equip learners with essential skills and confidence to navigate future challenges.
 
+  
           <br />
-          <br />
- Our boarding facility reflects the comfort and warmth of home, where discipline, care, values, and emotional support work hand in hand. Sports remain a major priority at Ecole Globale, offering ample opportunities for students to explore, grow, and excel. As one of the finest girl boarding schools in Dehradun, Ecole Globale offers the perfect balance of academic excellence and holistic development, ensuring every student thrives in a secure, nurturing, and inspiring atmosphere.
+ Our boarding facility reflects the comfort and warmth of home, where discipline, care, values, and emotional support work hand in hand. Sports remain a major priority at Ecole Globale, offering ample opportunities for students to explore, grow, and excel.         <br />As one of the finest girl boarding schools in Dehradun, Ecole Globale offers the perfect balance of academic excellence and holistic development, ensuring every student thrives in a secure, nurturing, and inspiring atmosphere.
         </p>
       </div>
     </div>
