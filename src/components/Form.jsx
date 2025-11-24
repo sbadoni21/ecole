@@ -55,7 +55,7 @@ export default function Form() {
   };
 
   return (
-    <div className="bg-white px-6 md:pb-6 md:pt-3 py-8 rounded-lg w-full md:w-[600px] text-black shadow-lg shadow-white-50">
+    <div className="bg-white px-6 md:pb-6 md:pt-3 py-8 rounded-lg w-full border border-red-500 md:w-[600px] text-black shadow-lg shadow-red-300">
       <div className="text-center">
         <p className="text-[20px] font-bold md:text-[30px] pt-2 text-red-600">
           Enquire Now
@@ -63,7 +63,7 @@ export default function Form() {
     
       </div>
       <form onSubmit={sendEmail}>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 ">
           <div>
             <label className="md:text-[16px] text-[12px]">Name</label>
             <input
