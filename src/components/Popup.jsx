@@ -73,7 +73,7 @@ export default function Popup() {
               />
             </div>
 
-            <div className="md:absolute md:right-0 w-[465px] md:bg-transparent bg-white md:top-0 px-6 text-black md:text-white">
+            <div className="md:absolute md:right-0 w-[465px] md:bg-transparent bg-white s md:top-0 px-6 text-black md:text-white">
               <div className="flex flex-row justify-between items-center md:mt-6 mt-4 mb-4">
                 <div className="text-center">
                   <p className="text-[20px] font-bold md:text-[22px] text-red-600 pt-2">

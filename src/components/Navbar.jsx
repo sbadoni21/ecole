@@ -222,7 +222,7 @@ const Navbar = () => {
           alt="Main Logo"
           height={1000}
           width={1000}
-          className="w-28 h-16 md:w-64 md:h-28 object-contain"
+          className="w-40 h-[70px] md:w-64 md:h-28 object-contain"
         />
 
         {/* Desktop Menu */}
