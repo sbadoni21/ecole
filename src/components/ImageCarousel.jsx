@@ -7,7 +7,7 @@ const MOBILE_IMAGES = [
   "https://www.ecoleglobale.com/assets/img/ec-mobile-3.jpg",
 ];
 
-const DEFAULT_IMAGES = [
+const DESKTOP_IMAGES = [
   "https://www.ecoleglobale.com/wp-content/uploads/2024/03/discover-ecole-globale-international-girls-school.jpg",
   "https://www.ecoleglobale.com/wp-content/uploads/2024/03/horse-riding-in-girls-boarding-schools.jpg",
   "https://www.ecoleglobale.com/wp-content/uploads/2024/03/best-girls-boardingschool-in-dehradun.jpg",
@@ -46,9 +46,9 @@ export default function FullScreenCarousel({ interval = 3000 }) {
   return (
     <>
       {/* ===================== MOBILE CAROUSEL ===================== */}
-      <div className="md:hidden w-full overflow-hidden relative">
+      <div className="md:hidden w-full h-[60vh] overflow-hidden relative">
         <div
-          className="flex transition-transform duration-700"
+          className="flex h-full transition-transform duration-700"
           style={{ transform: `translateX(-${index * 100}%)` }}
           onTouchStart={onTouchStart}
           onTouchMove={onTouchMove}
@@ -57,76 +57,77 @@ export default function FullScreenCarousel({ interval = 3000 }) {
           onMouseLeave={() => setIsPaused(false)}
         >
           {MOBILE_IMAGES.map((src, i) => (
-            <div key={i} className="min-w-full h-[77vh] relative mt-16">
+            <div key={i} className="min-w-full h-full relative">
               <img
                 src={src}
                 alt={`m-slide-${i}`}
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
               />
             </div>
           ))}
         </div>
 
         {/* Dots */}
-        <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2">
           {MOBILE_IMAGES.map((_, i) => (
-            <div
+            <button
               key={i}
-              className={`w-2 h-2 rounded-full ${
-                i === index ? "bg-white" : "bg-white/50"
+              onClick={() => setIndex(i)}
+              className={`w-2.5 h-2.5 rounded-full transition-all ${
+                i === index ? "bg-white scale-110" : "bg-white/50"
               }`}
             />
           ))}
         </div>
       </div>
 
-      {/* ===================== DESKTOP CAROUSEL (YOUR ORIGINAL) ===================== */}
+      {/* ===================== DESKTOP CAROUSEL ===================== */}
       <div className="hidden md:block">
-        <DesktopCarousel images={DEFAULT_IMAGES} interval={interval} />
+        <DesktopCarousel images={DESKTOP_IMAGES} interval={interval} />
       </div>
     </>
   );
 }
 
-/* Desktop full-screen carousel (same as yours) */
-function DesktopCarousel({ images, interval }) {
+function DesktopCarousel({ interval = 3000 }) {
   const [index, setIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
+  // Auto slide
   useEffect(() => {
     if (isPaused) return;
     const id = setInterval(() => {
-      setIndex((i) => (i + 1) % images.length);
+      setIndex((i) => (i + 1) % DESKTOP_IMAGES.length);
     }, interval);
-    return () => clearInterval(id);
-  }, [images.length, interval, isPaused]);
+  }, [interval, isPaused]);
 
   return (
-    <div className="w-screen h-screen overflow-hidden relative">
+    <div className="w-full h-screen overflow-hidden relative">
+      {/* Slides */}
       <div
-        className="flex h-full transition-transform duration-700"
+        className="flex h-full transition-transform duration-[900ms] ease-in-out"
         style={{ transform: `translateX(-${index * 100}%)` }}
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >
-        {images.map((src, i) => (
+        {DESKTOP_IMAGES.map((src, i) => (
           <img
             key={i}
             src={src}
-            className="w-full h-full object-cover"
-            alt="slide"
+            alt={`slide-${i}`}
+            className="w-full h-full object-cover flex-shrink-0"
           />
         ))}
       </div>
 
-      {/* Dots */}
+      {/* Navigation Dots */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-3">
-        {images.map((_, i) => (
+        {DESKTOP_IMAGES.map((_, i) => (
           <button
             key={i}
             onClick={() => setIndex(i)}
-            className={`w-3 h-3 rounded-full ${
-              i === index ? "bg-white" : "bg-white/50"
+            className={`w-3 h-3 rounded-full transition-all ${
+              i === index ? "bg-white scale-110" : "bg-white/50"
             }`}
           />
         ))}

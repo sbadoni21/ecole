@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
    
 
       </head>
-      <body>
+      <body className="w-screen">
         
         <Navbar />
         <Popup />

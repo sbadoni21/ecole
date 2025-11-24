@@ -215,7 +215,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full backdrop-blur-md text-white bg-[#0000006d] z-50 shadow-md">
+    <nav className=" relative top-0 left-0 w-full  backdrop-blur-md text-white bg-black/50 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
              <Image
           src="/main-logo.png"
@@ -248,7 +248,7 @@ const Navbar = () => {
               </div>
 
               {item.hasDropdown && activeDropdown === index && (
-                <div className="absolute left-0 top-full bg-white text-black px-3 py-2 shadow-lg rounded-md w-48">
+<div className="absolute left-0 top-full bg-white text-black px-3 py-2 shadow-lg rounded-md w-48 z-[99999]">
                   {item.options?.map((opt, i) => (
                     <a
                       key={i}
