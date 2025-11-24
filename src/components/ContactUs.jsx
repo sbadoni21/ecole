@@ -37,7 +37,7 @@ const ContactUs = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-red-50 to-indigo-100">
       {/* Hero Section */}
-      <div className="bg-[#EC3237] text-white py-20">
+      <div className="bg-[#b0191e] text-white py-20">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className="text-5xl font-bold mb-4 mt-48">Get In Touch</h1>
           <p className="text-xl opacity-90">

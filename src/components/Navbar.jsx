@@ -124,7 +124,7 @@ import Image from "next/image";
 
 //       {/* Mobile Menu */}
 //       {mobileMenuOpen && (
-//         <div className="md:hidden bg-[#EC3237] py-3 px-6 h-screen flex flex-col">
+//         <div className="md:hidden bg-[#b0191e] py-3 px-6 h-screen flex flex-col">
 //           {navItems.map((item, index) => (
 //             <div key={index} className="border-b border-blue-700">
 //               <div
@@ -279,7 +279,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-[#EC3237] py-3 px-6 h-screen flex flex-col">
+        <div className="md:hidden bg-[#b0191e] py-3 px-6 h-screen flex flex-col">
           {navItems.map((item, index) => (
             <div key={index} className="border-b border-blue-700">
               <div

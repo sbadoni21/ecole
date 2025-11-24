@@ -6,7 +6,7 @@ import Form from "./Form";
 
 const Footer = () => {
   return (
-    <div className="bg-[#ED3137] text-white bg-cover bg-center">
+    <div className="bg-[#b0191e] text-white bg-cover bg-center">
       <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12 px-4 sm:px-6 md:px-14 py-10">
 
         <div className="w-full md:w-1/2 space-y-4 md:space-y-6 text-center md:text-left">

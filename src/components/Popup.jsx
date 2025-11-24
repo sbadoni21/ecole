@@ -142,7 +142,7 @@ export default function Popup() {
                   <div className="my-4">
                     <button
                       type="submit"
-                      className="w-full md:h-12 border h-[30px] md:text-[16px] text-[12px] rounded-lg text-center text-white bg-gradient-to-l from-[#EC3237] to-transparent"
+                      className="w-full md:h-12 border h-[30px] md:text-[16px] text-[12px] rounded-lg text-center text-white bg-gradient-to-l from-[#b0191e] to-transparent"
                       disabled={loading}
                     >
                       {loading ? "Sending..." : "Submit"}

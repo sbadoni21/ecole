@@ -5,7 +5,7 @@ export default function SyllabusPage() {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <div className="bg-[#EC3237] text-white py-12 md:py-16 px-8 md:px-[99px]">
+      <div className="bg-[#b0191e] text-white py-12 md:py-16 px-8 md:px-[99px]">
         <h1 className="font-bold text-[36px] md:text-[48px] mb-4 mt-48">Syllabus</h1>
         <p className="text-[16px] md:text-[18px] max-w-3xl italic">
           "Education is not the learning of facts, but the training of the mind to think."
@@ -18,7 +18,7 @@ export default function SyllabusPage() {
         
         {/* CBSE Program Section */}
         <div className="mb-16">
-          <h2 className="font-semibold text-[28px] md:text-[36px] text-[#EC3237] mb-8">
+          <h2 className="font-semibold text-[28px] md:text-[36px] text-[#b0191e] mb-8">
             About CBSE Program
           </h2>
           
@@ -31,7 +31,7 @@ The CBSE Program at Ecole Globale is monitored by the Central Board of Secondary
 The evaluations and assessment patterns are designed strictly in accordance with the latest CBSE rules and guidelines. These processes are closely supervised by the School&apos;s dedicated CBSE Coordinator to ensure smooth implementation and academic accuracy.
             </p>
 
-            <div className="bg-gray-50 p-6 md:p-8 rounded-lg border-l-4 border-[#EC3237] my-8">
+            <div className="bg-gray-50 p-6 md:p-8 rounded-lg border-l-4 border-[#b0191e] my-8">
          
               <p>
   The CBSE curriculum focuses on developing strong analytical skills and reasoning-based understanding. Because it is accepted nationwide, the curriculum accommodates the diverse cultural backgrounds of students. This makes it ideal for Ecole Globale, where learners come from different regions and cultures. The content is structured, comprehensive, and easy to grasp, ensuring that every student finds value in the program.

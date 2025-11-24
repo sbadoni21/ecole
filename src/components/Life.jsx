@@ -33,7 +33,7 @@ export default function Life() {
     <div className="px-8 md:px-20 py-10">
     <div className="flex flex-col items-center text-center">
       <h3 className="text-gray-400 mb-3 uppercase tracking-wide">Life</h3>
-      <h1 className="text-[#EC3237] text-[29px] font-bold">LIFE @ Ecole Globale International Girls School in Dehradun </h1>
+      <h1 className="text-[#b0191e] text-[29px] font-bold">LIFE @ Ecole Globale International Girls School in Dehradun </h1>
       <svg
         viewBox="0 0 100 20"
         preserveAspectRatio="none"
@@ -41,12 +41,12 @@ export default function Life() {
       >
         <path
           d="M0,10 C25,8 50,6 100,10 C50,14 25,12 0,10 Z"
-          fill="#EC3237"
+          fill="#b0191e"
         />
       </svg>
     </div>
 
-    <div className="grid grid-cols-2 sm:grid-cols-2 py-10 gap-6 md:flex md:flex-row justify-between md:px-6 text-[#EC3237] my-1">
+    <div className="grid grid-cols-2 sm:grid-cols-2 py-10 gap-6 md:flex md:flex-row justify-between md:px-6 text-[#b0191e] my-1">
       {features.map((feature) => (
         <div
           key={feature.id}

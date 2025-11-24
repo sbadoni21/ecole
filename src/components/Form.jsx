@@ -106,7 +106,7 @@ export default function Form() {
           <div className="my-4">
             <button
               type="submit"
-              className="w-full md:h-12 border h-[30px] md:text-[16px] text-[12px] rounded-lg text-center text-[#EC3237] bg-white to-transparent border-[#EC3237] hover:bg-[#EC3237] hover:text-white font-semibold"
+              className="w-full md:h-12 border h-[30px] md:text-[16px] text-[12px] rounded-lg text-center text-[#b0191e] bg-white to-transparent border-[#b0191e] hover:bg-[#b0191e] hover:text-white font-semibold"
               disabled={loading}
             >
               {loading ? "Sending..." : "Submit"}

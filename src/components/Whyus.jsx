@@ -18,7 +18,7 @@ export default function Whyus() {
         {
           id: 3,
           title: "Advanced Learning Labs",
-          desc: " Well-equipped laboratories featuring upgraded resources such as computers, digital labs, internet access, and more.",
+          desc: " Well-equipped laboratories with upgraded resources such as computers, digital labs, and more.",
           icon: "/Microscope2.svg",
         },
         {
@@ -33,7 +33,7 @@ export default function Whyus() {
            <h3 className="text-gray-400 text-[14px] md:text-[16px] mb-3 capitalize">
              Why us?
            </h3>
-           <h1 className="text-[#EC3237] md:text-[29px] text-[18px] font-bold">
+           <h1 className="text-[#b0191e] md:text-[29px] text-[18px] font-bold">
 What Sets Ecole Globale Apart
            </h1>
            <svg
@@ -45,7 +45,7 @@ What Sets Ecole Globale Apart
                d="M0,10
               C25,8 50,6 100,10
               C50,14 25,12 0,10 Z"
-               fill="#EC3237"
+               fill="#b0191e"
              />
            </svg>
            <div className="text-gray-400 md:text-left text-center md:text-[18px] text-[14px] mt-8">
@@ -58,7 +58,7 @@ Ecole Globale International Girls&apos; School is widely recognized as one of th
                  key={card.id}
                  className="lg:w-[20vw] md:w-[36vw] w-[70vw] h-[250px] shadow-xl shadow-[#CDDAEC] relative bg-white overflow-hidden"
                >
-                 <div className="rounded-full w-[130px] h-[130px] absolute -top-4 -left-6 bg-gradient-to-r from-[#EC3237] to-[#EC3237] flex items-center justify-center text-white text-4xl">
+                 <div className="rounded-full w-[130px] h-[130px] absolute -top-4 -left-6 bg-gradient-to-r from-[#b0191e] to-[#b0191e] flex items-center justify-center text-white text-4xl">
                    <Image
                      className="w-[50px] h-[50px]"
                      src={card.icon}

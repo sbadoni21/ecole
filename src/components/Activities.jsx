@@ -39,7 +39,7 @@ export default function Activities() {
     <>
       <section className="text-center md:py-10 pt-6 md:px-36 px-8">
         <h3 className="text-gray-400 uppercase text-sm">ACTIVITIES</h3>
-        <h2 className="text-[#EC3237] font-bold text-[18px] md:text-3xl">
+        <h2 className="text-[#b0191e] font-bold text-[18px] md:text-3xl">
           ACTIVITIES AT ECOLE GLOBALE
         </h2>
 
@@ -61,10 +61,10 @@ export default function Activities() {
                 className={`bg-white w-[264px] text-left h-[174px] shadow-lg absolute right-0 rounded-lg p-4 flex flex-col justify-between `}
               >
                 <div className="flex  justify-between">
-                  <h3 className=" font-bold text-[16px] text-[#EC3237]">
+                  <h3 className=" font-bold text-[16px] text-[#b0191e]">
                     {activity.title}
                   </h3>
-                  <div className="text-xl text-[#EC3237]">
+                  <div className="text-xl text-[#b0191e]">
                     <Image
                       src={activity.icon}
                       alt={activity.icon}
@@ -95,7 +95,7 @@ export default function Activities() {
             />
             <div className="p-4 h-[125px] shadow-lg bg-white absolute bottom-0">
               <div className="flex items-center justify-between mb-2">
-                <h3 className="text-[#EC3237] md:text-xl font-bold">
+                <h3 className="text-[#b0191e] md:text-xl font-bold">
                   {activity.title}
                 </h3>
                 <div>
