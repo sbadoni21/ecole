@@ -202,7 +202,7 @@ const Navbar = () => {
         },
         {
           title: "Syllabus",
-          path: "https://www.laureateshimla.com/academic-philosophy",
+          path: "/syllabus",
         },
       ],
     },

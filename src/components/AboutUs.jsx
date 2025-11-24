@@ -52,10 +52,10 @@ export default function AboutUsPage() {
             </h2>
             <div className="space-y-6 text-[15px] md:text-[16px] text-gray-800 leading-relaxed max-w-5xl">
               <p>
-                A great starting point about a child&apos;s education but we know important lessons in education go beyond the four walls of a classroom. We understand the importance of education both between the lines of a textbook and outside in extracurricular activities. These lessons will help turn our girls into well-rounded gracious citizens of tomorrow.
+While formal education begins inside the classroom, Ecole Globale believes that meaningful learning extends far beyond textbooks. We value both academic excellence and co-curricular exposure—ensuring that every girl develops into a confident, thoughtful, and well-rounded individual prepared for the challenges of tomorrow.
               </p>
               <p>
-                To prepare for the future, a child needs to have the opportunity to learn the art of public speaking, engage in sports, learn multiple arts, develop a sense of confidence in self and most of all learn to contribute to communities. All of this and so much more is what we hope for the children enrolled in our institute to learn and absorb naturally through their time here.
+             For future success, students need opportunities to strengthen communication skills, participate in sports, explore creative arts, develop self-belief, and understand the importance of community engagement. At Ecole, these experiences are integrated seamlessly into everyday learning so that each student grows with confidence and clarity.
               </p>
               
               <div className="bg-gray-50 p-6 md:p-8 rounded-lg border-l-4 border-[#EC3237] my-8">
@@ -63,18 +63,19 @@ export default function AboutUsPage() {
                   The Four Pillars of Our Foundation
                 </p>
                 <p>
-                  The four pillars which form the foundation of our beliefs are – <span className="font-semibold text-[#EC3237]">Air, Earth, Water, and Fire</span>. A balance of these classical elements is important for existence. Each pillar has particular properties which distinguish them from one another yet is critically important for the balance. We hope to help students find their element and ensure they develop it to its fullest potential.
+                  The four pillars which form the foundation of our beliefs are – <span className="font-semibold text-[#EC3237]">Air, Earth, Water, and Fire</span>each representing qualities essential for balance and growth. We guide our students in discovering their individual strengths and encourage them to cultivate these qualities with purpose.
+
                 </p>
               </div>
 
               <p>
-                At Ecole Globale, we believe in equal opportunities for the girls to learn, grow and excel at whatever they choose to be it academics or extracurricular activities yet still insisting on all-round development. We understand how each tree of learning requires individual attention and dedicated patience, and our teachers help accomplish all of that efficiently. We create a conducive and fun learning environment with the added help of technology. To ensure equal attention is distributed amongst all the girls, we have a fixed teacher-student ratio at a stable <span className="font-semibold text-[#EC3237]">1:10</span>.
+                 Every girl at Ecole Globale receives equal opportunity to learn, grow, and excel—whether in academics, sports, arts, or other pursuits—while keeping holistic development at the core. Recognizing that each learner needs care and attention, we maintain a nurturing environment supported by advanced learning tools and a consistent 1:10 teacher-student ratio.<span className="font-semibold text-[#EC3237]">1:10</span>.
               </p>
               <p>
-                Regularly, we also conduct a rich student exchange program which inculcates a sense of diversity, understanding, and appreciation of peers from other countries and cultural background amongst students. It is experiences like these that makes students of Ecole Globale, citizens of the world and leaders for tomorrow!
+We also offer a dynamic student exchange program that expands global understanding and fosters appreciation for diverse cultures. These experiences help shape confident global citizens and strong future leaders. 
               </p>
               <p className="font-medium text-[17px] md:text-[18px] text-[#EC3237] mt-8">
-                To be at Ecole Globale would be an enriching, educating and enlightening experience for your child and the lessons learned here will guide them through the future.
+Being at Ecole Globale is a transformative journey—an experience that enriches, educates, and empowers every girl for life beyond school.
               </p>
             </div>
           </div>
@@ -92,7 +93,7 @@ export default function AboutUsPage() {
               <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-[#EC3237]">
                 <h3 className="font-semibold text-[24px] md:text-[28px] text-[#EC3237] mb-4">Vision</h3>
                 <p className="text-[15px] md:text-[16px] text-gray-800 leading-relaxed">
-                  To empower girls to discover their intellectual, creative and physical potential to embrace the 21st century.
+To help every girl discover her strengths, think independently, and grow into a confident individual who is ready for the opportunities and challenges of the future.
                 </p>
               </div>
 
@@ -100,25 +101,18 @@ export default function AboutUsPage() {
               <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-[#EC3237]">
                 <h3 className="font-semibold text-[24px] md:text-[28px] text-[#EC3237] mb-4">Mission</h3>
                 <p className="text-[15px] md:text-[16px] text-gray-800 leading-relaxed">
-                  To create an environment that is conducive for learning to develop skills and honing the innate talents of our students, by making innovative use of technological tools to support independent learning inside the classroom and beyond the bounds of the four walls.
-                </p>
+Our mission is to create a learning environment where curiosity is encouraged, skills are strengthened, and every student feels motivated to do her best. We use modern teaching methods and supportive technology so that learning continues both inside and outside the classroom.                </p>
               </div>
             </div>
 
             {/* Mission Details */}
             <div className="space-y-6 text-[15px] md:text-[16px] text-gray-800 leading-relaxed max-w-5xl mx-auto">
               <p>
-                The challenges of the 21st century are unique, and to keep abreast with a multitude of such situations, we at Ecole Globale have ensured to nurture the girls to conduct themselves with confidence, grace and equanimity. The courseware is tailored to suit the needs of every child and their personality, so that inclusion could be practiced in the most equitable manner.
-              </p>
-              <p>
-                We aim at excellence, and the bandwidth of that goes beyond academics and extends to achieving holistic growth on the sports fields, in debate halls, educational conferences, community service, performing arts, appreciating the culture, and most importantly, at becoming individuals with a good conscience and a high emotional quotient (EQ). This is the age of EQ coupled with IQ, as artificial intelligence can also be programmed into a machine, but realistically, people skills and empathy are still the monopolistic territory of humans.
-              </p>
-              <p>
-                One of the most sought-after abilities is creativity and that can truly be discovered by leaving mental blocks aside and giving the liberty to young minds to think out of the box. The School provides ample of opportunities to let the girls showcase their creativity and to stimulate their cognition. In order to let the creative juices flowing, an equal emphasis has always been given to performing arts, wherein the girls own the stage and the canvas in their own stride. The aim has always been to empower the girls to embrace hindrances with new-found wisdom, freedom, agility and strength.
-              </p>
-              <p>
-                Developing physical potential goes hand-in-hand with the development of the mind and Ecole Globale constantly makes an attempt to let its students recognise the significance of physical well-being. This is not just through sports, but through the adoption of a healthy lifestyle adopted in the campus life.
-              </p>
+        Education today demands much more than textbook knowledge. At Ecole Globale, we focus on preparing girls to adapt, communicate, and think critically in a fast-changing world. Each student is unique, and our curriculum is designed to support different learning styles, personalities, and interests.
+We believe true education balances academics with life skills. That is why our girls participate in sports, creative activities, community work, public speaking, cultural programs, and leadership opportunities. Emotional intelligence is given equal importance so students learn to handle challenges with maturity and kindness.
+Creativity is a key skill of the modern era, and we encourage students to express their ideas freely. Through art, drama, music, and other performing arts, they build confidence and develop sharper imagination. Every platform—from stage performances to exhibitions—helps them grow into expressive and innovative young individuals.
+Physical fitness is also a core part of our philosophy. We promote healthy habits, active participation in sports, and overall well-being as essential components of a balanced life.
+ </p>
             </div>
           </div>
         )}
@@ -138,24 +132,14 @@ export default function AboutUsPage() {
               
               <div className="bg-gray-50 p-6 md:p-12 rounded-b-lg shadow-lg space-y-6 text-[15px] md:text-[16px] text-gray-800 leading-relaxed">
                 <p>
-                  As the President of Ecole Globale International Girls&apos; School, it gives me immense pleasure to interact with you through this platform. We have forever believed in our core ethos, which comprises of enthusiasm, vibrance and positivity and always attempt to incorporate them in every decision we take for the benefit of the girls here at Ecole. To be able to build honest, courageous, confident and responsible global citizens out of our students, Ecole remains committed to following a curriculum that is at par with international standards and principles.
-                </p>
-                <p>
-                  The sacrifice that parents make for their children can never be quantified; however, it is my honour to extend my gratitude to you, dear parents, to entrust the responsibility of the overall development of your child onto us. The well-being of each and every girl at Ecole is paramount to us and we fully recognize the efforts you have made in the good upbringing of your children and by investing in their education. We aim to strike a balance between the financial realities of families connected to our School, with the operational needs of the Institute.
-                </p>
-                <p>
-                  There is a thin line between knowing your potential and fully exploiting your potential. At Ecole Globale, we strive to make future leaders identify their strengths and work on their shortcomings with a determined and positive spirit. For the 360 degree growth of each child at the School, we take action to mould them into intellectually brilliant, emotionally mature, ethically sound and physically fit individuals.
-                </p>
-                <p>
-                  Our carefully-crafted curriculum makes it convenient for students to build these traits gradually, as they get accustomed to the life and culture at Ecole. It is through reading, debates, discussions and pondering that students learn to appreciate the various tenets of the type of education they are receiving.
-                </p>
-                <p>
-                  I am especially proud to have a dedicated and hardworking team of faculty members, who diligently work with the girls to lead them to success. It is a joint effort of parents, teachers and students that propels the students in the direction that is the most beneficial for their progress. I urge you to always stay connected with the School and continue supporting us in our endeavors to take the children to greater heights in the future!
-                </p>
+               As the President of Ecole Globale International Girls&apos; School, I feel a deep sense of pride each time I speak about our institution and the young girls who make it so special. Ecole has always stood for positivity, enthusiasm, and a vibrant spirit of learning, and these values guide every decision we take for our students. My vision has always been to help our girls grow into confident, responsible, and globally aware individuals, and our curriculum has been carefully shaped to support this belief.
+I want to take a moment to speak directly to you, dear parents. I understand the sacrifices you make, the hopes you carry, and the dreams you nurture for your daughters. Entrusting your child to a school is one of the biggest decisions you make, and I am sincerely grateful that you have chosen Ecole. Please know that the well-being, safety, and development of every girl here is our highest priority. We value the upbringing you have given them, and we aim to build upon that foundation with care and responsibility.
+At Ecole, we firmly believe that every child has immense potential—sometimes more than what they themselves realize. Our role is to help them discover their abilities, refine their strengths, and overcome their challenges with courage and determination. We work towards their all-round growth, ensuring that they evolve intellectually, emotionally, ethically, and physically. Through meaningful discussions, debates, reading, and reflective thinking, we encourage them to understand the true depth of the education they are receiving.
+I am fortunate to have a team of dedicated and passionate educators who work tirelessly to guide our girls. Their commitment, combined with the support of parents and the efforts of students, creates a powerful partnership that leads to success. I encourage you to stay connected with the school, remain involved, and continue supporting us as we move forward with the shared goal of shaping bright, independent, and compassionate young women.
+  </p>
                 <div className="border-t border-gray-300 pt-6 mt-8">
                   <p className="font-semibold text-[17px] md:text-[18px] text-[#EC3237]">
-                    Best Wishes,
-                  </p>
+With warm regards,                  </p>
                   <p className="font-semibold text-[16px] md:text-[17px] text-gray-900 mt-2">
                     Amarjeet Juneja
                   </p>

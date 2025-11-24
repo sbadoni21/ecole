@@ -6,57 +6,51 @@ const faqData = [
   {
     id: 1,
     question:
-      "What sets Ecole Global International Girls School apart as a top boarding school in Shimla?",
+      "What makes Ecole Globale one of the top girl boarding schools in Dehradun?",
     answer:
-      "Recognized as a leading coed day boarding school in Shimla, Himachal Pradesh, Ecole Global International Girls School combines a robust CBSE curriculum with a supportive boarding environment. Our focus on holistic development, complemented by Shimla's picturesque surroundings, makes us a top choice for boarding education.",
+      "Ecole Globale is known for its strong academics, structured boarding life, modern infrastructure, and emphasis on holistic development. The campus helps girls grow academically, physically, socially, and emotionally within a secure environment.",
   },
   {
     id: 2,
-    question:
-      "Does Ecole Global International Girls School accommodate both day scholars and boarders?",
+    question: "What curriculum does Ecole Globale follow?",
     answer:
-      "Yes, we proudly serve the needs of both day scholars and boarders. As a leading boarding school in Himachal Pradesh, we offer an inclusive setting that promotes academic success and personal development for every student.",
+      "The school follows both the CBSE and Cambridge (CAIE) curriculums, allowing students to choose an academic pathway that aligns with their long-term goals.",
   },
   {
     id: 3,
-    question: "Which curriculum is followed by Ecole Global International Girls School?",
+    question: "What classes are offered at Ecole Globale?",
     answer:
-      "We adhere to the CBSE (Central Board of Secondary Education) curriculum, offering a well-rounded and balanced learning approach, establishing us as a renowned boarding school in Himachal Pradesh.",
+      "The school offers education from Class 4 to Class 12, ensuring a seamless and stable learning experience through middle and senior grades.",
   },
   {
     id: 4,
-    question:
-      "How are the boarding facilities at Ecole Global International Girls School in Shimla?",
+    question: "What kind of boarding facilities are available for students?",
     answer:
-      "Our boarding facilities are crafted to provide a safe, comfortable, and nurturing environment. We aim to create a 'home away from home' atmosphere, with committed staff supporting the well-being and growth of each boarder.",
+      "Ecole Globale offers a fully residential setup with supervised dormitories, nutritious meals, medical care, and a structured daily routine that balances academics and personal development.",
   },
   {
     id: 5,
-    question:
-      "In what ways does Ecole Global International Girls School promote the holistic development of its students?",
+    question: "How does the school ensure the safety of boarders?",
     answer:
-      "As a top boarding school in Shimla, we focus on both academic success and the holistic growth of our students. This involves sports, cultural events, extracurricular activities, and excursions, all essential to our educational philosophy.",
+      "Safety is ensured through 24/7 security, CCTV surveillance, controlled access points, trained wardens, and a highly disciplined campus atmosphere.",
   },
   {
     id: 6,
-    question:
-      "Are there particular admission requirements for the boarding program at Ecole Global International Girls School?",
+    question: "What sports and physical activities are offered?",
     answer:
-      "Enrollment in our boarding program depends on academic performance, an entrance test, and a personal interview. We seek students eager to learn and thrive in our vibrant boarding schools in Shimla.",
+      "Students can participate in basketball, swimming, athletics, equestrian activities, football, and more. Sports are a core part of the curriculum to promote confidence, fitness, discipline, and leadership.",
   },
   {
     id: 7,
-    question:
-      "What makes Ecole Global International Girls School unique compared to other boarding schools in Himachal Pradesh?",
+    question: "What life skills do students learn at Ecole Globale?",
     answer:
-      "Our distinct location in Shimla, along with a robust academic curriculum, superior boarding facilities, and a focus on personal growth, makes us a leading choice among boarding schools in Himachal Pradesh.",
+      "Girls develop key life skills such as time management, communication, leadership, teamwork, emotional resilience, self-discipline, cultural sensitivity, and independent decision-making.",
   },
   {
     id: 8,
-    question:
-      "Are international students eligible to enroll at Ecole Global International Girls School?",
+    question: "How can parents contact the school for admissions?",
     answer:
-      "Definitely. We value diversity and accept students from various cultural backgrounds, creating a cosmopolitan and inclusive boarding school environment in Shimla.",
+      "Parents can get in touch through phone, email, or the inquiry form on the official website. The campus is located at Village Horawalla, Near Sahaspur, Dehradun – 248197, Uttarakhand, India.",
   },
 ];
 

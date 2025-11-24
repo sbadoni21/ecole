@@ -51,54 +51,10 @@ export default function CurriculumPage() {
               Cambridge International Curriculum
             </h2>
             <div className="space-y-6 text-[15px] md:text-[16px] text-gray-800 leading-relaxed max-w-5xl">
-              <p>
-                The Cambridge International curriculum sets a global standard for education, and is recognised by universities and employers worldwide. The CI curriculum is flexible, challenging and inspiring, culturally sensitive yet international in approach. Cambridge students develop an informed curiosity and a lasting passion for learning. They also gain the essential skills they need for success at university and in their future careers.
-              </p>
-              <p>
-                Over <span className="font-semibold text-[#EC3237]">10,000 schools</span> in over <span className="font-semibold text-[#EC3237]">160 countries</span> follow the Cambridge international curriculum, making it a truly global educational framework.
-              </p>
-              
-              <div className="bg-gray-50 p-6 md:p-8 rounded-lg border-l-4 border-[#EC3237] my-8">
-                <p className="font-semibold text-[18px] text-[#EC3237] mb-4">
-                  Why Choose Cambridge?
-                </p>
-                <p>
-                  Cambridge programmes combine an emphasis on mastering subjects in depth with the development of skills for study and work in the future. It values deep subject knowledge as well as the conceptual understanding that helps students make links between different aspects of a subject. It also encourages students to develop higher order thinking skills – problem solving, critical thinking, independent research, collaboration and presenting arguments. These are transferable skills that will last a lifetime, preparing students for their future lives.
-                </p>
-              </div>
+       The Cambridge International curriculum is recognised worldwide for its academic quality and global relevance. It sets a strong international benchmark and is accepted by leading universities and employers across the world. Known for its flexibility and well-designed academic structure, the CI curriculum encourages students to think deeply, explore creatively, and approach learning with curiosity and confidence. Today, more than 10,000 schools across 160+ countries follow the Cambridge framework, making it one of the most trusted international education systems.
+This curriculum is thoughtfully designed to help students master subjects in depth while also preparing them with essential skills for higher studies and future careers. The program emphasises strong conceptual understanding, enabling students to connect ideas and apply knowledge across different topics. Along with academic clarity, it focuses on building advanced thinking skills such as critical analysis, problem-solving, independent research, collaboration, and effective communication. These lifelong skills equip learners to adapt confidently to real-world challenges, making learning both meaningful and enjoyable.
+Cambridge qualifications are well respected globally and open doors to universities and career opportunities in India and abroad. Over 1,400 universities worldwide recognise these certifications, including all universities in the UK, more than 600 in the United States (such as Ivy League institutions), and leading institutions in Canada, Australia, Singapore, South Africa, Germany, and the Netherlands. A Cambridge qualification carries long-term value and is highly regarded in both academic and professional fields.
 
-              <h3 className="font-semibold text-[22px] md:text-[26px] text-[#EC3237] mt-10 mb-4">
-                Global Recognition
-              </h3>
-              <p>
-                Cambridge qualifications are globally recognised, accepted by universities and employers at home and around the world. A Cambridge qualification comes with an impressive reputation, and will retain its value for a lifetime of education and employment.
-              </p>
-              <p>
-                Over <span className="font-semibold text-[#EC3237]">1,400 universities worldwide</span> recognise Cambridge qualifications. They are accepted by:
-              </p>
-              
-              <div className="grid md:grid-cols-2 gap-4 my-6">
-                <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-[#EC3237]">
-                  <p className="font-semibold text-[16px] text-gray-900 mb-2">United Kingdom</p>
-                  <p className="text-[14px] text-gray-700">Every UK university</p>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-[#EC3237]">
-                  <p className="font-semibold text-[16px] text-gray-900 mb-2">United States</p>
-                  <p className="text-[14px] text-gray-700">600 universities (including all Ivy League)</p>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-[#EC3237]">
-                  <p className="font-semibold text-[16px] text-gray-900 mb-2">Canada & Australia</p>
-                  <p className="text-[14px] text-gray-700">Major universities nationwide</p>
-                </div>
-                <div className="bg-white p-6 rounded-lg shadow-md border-t-4 border-[#EC3237]">
-                  <p className="font-semibold text-[16px] text-gray-900 mb-2">Global Destinations</p>
-                  <p className="text-[14px] text-gray-700">Singapore, South Africa, Germany, Netherlands</p>
-                </div>
-              </div>
-
-              <p className="font-medium text-[17px] md:text-[18px] text-[#EC3237] mt-8">
-                At Ecole Globale, students can choose between CBSE and CI curriculum in Grade 9, offering flexibility to match their educational goals and aspirations.
-              </p>
             </div>
           </div>
         )}
@@ -116,16 +72,10 @@ export default function CurriculumPage() {
                   The World&apos;s Most Popular International Qualification
                 </p>
                 <p className="text-[14px] md:text-[15px] opacity-90">
-                  For 14 to 16 year olds | Classes IX and X
+The Cambridge IGCSE is the most widely chosen international qualification for students aged 14–16. At Ecole Globale, students can opt for either the CBSE or CI curriculum when entering Grade 9. The two-year IGCSE programme (Classes IX and X) at Ecole offers a balanced range of subjects designed to challenge students academically while nurturing diverse interests and abilities.
                 </p>
               </div>
 
-              <p>
-                Cambridge IGCSE (International General Certificate of Secondary Education) is the world&apos;s most popular international qualification for 14 to 16 year olds. At Ecole Globale, students can choose to decide between CBSE and CI curriculum in Grade 9.
-              </p>
-              <p>
-                In the two-year IGCSE programme at Ecole, Classes IX and X students study a range of subjects that are exciting and challenging. The curriculum is designed to develop intellectual inquiry, problem-solving skills and creative expression.
-              </p>
 
               <h3 className="font-semibold text-[22px] md:text-[26px] text-[#EC3237] mt-10 mb-6">
                 Subject Groups at Ecole Globale
@@ -174,12 +124,10 @@ export default function CurriculumPage() {
               
               <div className="bg-gray-50 p-6 md:p-8 rounded-lg my-6">
                 <p className="mb-4">
-                  Cambridge IGCSE assessment takes place at the end of the course (every year during March) and can include written, oral, coursework and practical assessment. This broadens opportunities for students to demonstrate their learning, particularly when their first language is not English.
+                  Assessments for IGCSE take place at the end of the course (March session every year). These may include written papers, oral exams, coursework, and practical evaluations. This multi-format assessment system allows students to showcase their understanding in different ways, especially helpful for learners whose first language may not be English. Students receive one of eight internationally recognised grades: A*, A, B, C, D, E, F, or G.
                 </p>
-                <p className="font-semibold text-[#EC3237] mb-2">Grading System:</p>
-                <p className="text-gray-800">
-                  Grades are benchmarked using eight internationally recognised grades: <span className="font-semibold">A*, A, B, C, D, E, F and G</span>
-                </p>
+          
+              
               </div>
             </div>
           </div>
@@ -193,50 +141,35 @@ export default function CurriculumPage() {
             </h2>
             
             <div className="space-y-6 text-[15px] md:text-[16px] text-gray-800 leading-relaxed max-w-5xl">
-              <div className="bg-gradient-to-r from-[#EC3237] to-[#d62a2f] text-white p-6 md:p-8 rounded-lg mb-8">
-                <p className="text-[18px] md:text-[20px] font-semibold mb-2">
-                  Advanced Level Qualifications
-                </p>
-                <p className="text-[14px] md:text-[15px] opacity-90">
-                  Equivalent to Grades 11 and 12 in India
-                </p>
-              </div>
+          
 
-              <p>
-                Cambridge AS and A Level is a continuation of the IGCSE examination that students take up in Grade 10. In India, it is equivalent to Grades 11 and 12. A Level stands for <span className="font-semibold text-[#EC3237]">Advanced Level</span> and AS Level stands for <span className="font-semibold text-[#EC3237]">Advanced Subsidiary Level</span>.
-              </p>
-              <p>
-                An AS Level contains half the content of the corresponding A Level and is normally completed in one year. Learners take all the assessments for their full A Level at the end of the second year.
-              </p>
+              
 
               <h3 className="font-semibold text-[22px] md:text-[26px] text-[#EC3237] mt-10 mb-6">
-                Advantages of Cambridge A Level
+Why Choose Cambridge A Levels?
               </h3>
 
               <div className="grid md:grid-cols-2 gap-6 my-8">
                 <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#EC3237]">
-                  <h4 className="font-semibold text-[17px] text-gray-900 mb-3">Comprehensive Study</h4>
-                  <p className="text-[14px] text-gray-700">Comprehensive and immersive study of subjects with depth and rigor.</p>
+
+                  <p className="text-[14px] text-gray-700">In-depth and immersive subject study that encourages academic mastery.
+</p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#EC3237]">
-                  <h4 className="font-semibold text-[17px] text-gray-900 mb-3">Global Exposure</h4>
-                  <p className="text-[14px] text-gray-700">Exposure to international policy making, thinking and problem solving.</p>
+                  <p className="text-[14px] text-gray-700">Exposure to global thinking models, analytical reasoning, and policy-oriented perspectives.</p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#EC3237]">
-                  <h4 className="font-semibold text-[17px] text-gray-900 mb-3">Practical Learning</h4>
-                  <p className="text-[14px] text-gray-700">Practical learning and knowledge application through hands-on experiences.</p>
+                  <p className="text-[14px] text-gray-700">Emphasis on practical learning and real-world application.</p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#EC3237]">
-                  <h4 className="font-semibold text-[17px] text-gray-900 mb-3">Critical Thinking</h4>
-                  <p className="text-[14px] text-gray-700">Logical and structured thinking models and rational discourses.</p>
+                  <p className="text-[14px] text-gray-700">Structured and logical frameworks that promote clear and independent thought.</p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-[#EC3237] md:col-span-2">
-                  <h4 className="font-semibold text-[17px] text-gray-900 mb-3">International Benchmarking</h4>
-                  <p className="text-[14px] text-gray-700">Internationally benchmarked grading system that encourages strengths, identifies weakness and provides guidelines for standards of achievement.</p>
+                  <p className="text-[14px] text-gray-700">Internationally benchmarked grading systems that highlight strengths and guide improvement.</p>
                 </div>
               </div>
 

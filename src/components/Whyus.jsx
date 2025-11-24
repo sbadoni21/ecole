@@ -5,26 +5,26 @@ export default function Whyus() {
     const cardData = [
         {
           id: 1,
-          title: "100% Result",
-          desc: "Continuous success with 100% board results.",
+          title: "Exceptional Results",
+          desc: " Consistent excellence reflected in our continuous 100% board performance.",
           icon: "/Trophy.svg",
         },
         {
           id: 2,
-          title: "Modern Class Room",
-          desc: "Advanced classrooms with full facilities for teachers and students.",
+          title: "Smart Classrooms",
+          desc: "Modern classrooms equipped with complete digital learning facilities for teachers and students.\n",
           icon: "/School.svg",
         },
         {
           id: 3,
-          title: "Well Equipped Lab",
-          desc: "We possess technological resources like computers, labs, internet, etc.",
+          title: "Advanced Learning Labs",
+          desc: " Well-equipped laboratories featuring upgraded resources such as computers, digital labs, internet access, and more.",
           icon: "/Microscope2.svg",
         },
         {
           id: 4,
-          title: "Innovation",
-          desc: "We have subject experts who elevate the learning to the next level.",
+          title: "Academic Innovation",
+          desc: " Subject experts ensure enhanced learning approaches that help students progress to the next level.",
           icon: "/Project Management.svg",
         },
       ];
@@ -34,7 +34,7 @@ export default function Whyus() {
              Why us?
            </h3>
            <h1 className="text-[#EC3237] md:text-[29px] text-[18px] font-bold">
-             Why Choose Ecole Globale
+What Sets Ecole Globale Apart
            </h1>
            <svg
              viewBox="0 0 100 20"
@@ -49,8 +49,8 @@ export default function Whyus() {
              />
            </svg>
            <div className="text-gray-400 md:text-left text-center md:text-[18px] text-[14px] mt-8">
-            Ecole Globale International Girls School is one of the premier Institutes for girls. Girls residential schools in Dehradun often take the onus of providing the best accommodation to students. Ecole Globale deserves accolades for the kind of security, medical facilities, hospitality, and education it provides to the girls.The sheer dedication with which teachers deliver their work is truly commendable. The alumni who prove to be overachievers have all good things to say about this school.
-
+Ecole Globale International Girls&apos; School is widely recognized as one of the leading institutions for young women. Among several girl boarding schools in Dehradun, it stands apart for offering safe, comfortable, and exceptionally well-managed residential facilities. The school is known for its strong security measures, dependable medical care, warm hospitality, and robust academic ecosystem.
+ The dedication of our teachers is remarkable, and our alumni—now excelling in diverse professional fields—regularly share inspiring experiences from their years at Ecole Globale.
            </div>
            <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 mt-10">
              {cardData.map((card) => (

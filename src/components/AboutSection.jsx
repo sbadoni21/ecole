@@ -13,11 +13,9 @@ export default function AboutSection() {
 Ecole Globale International Girls&apos; School in Dehradun       </h1>
       
         <p className="text-[14px] md:text-[16px] font-normal mb-6 text-black">
-      In this era of progressive education, schools strive to provide holistic development for their students. Beyond delivering a curriculum that encompasses academics, activities, sports, and community service, significant effort is made to shape students' futures by preparing them to become the leaders of tomorrow.
+In today&apos;s rapidly evolving educational landscape, learning extends far beyond traditional textbooks. Modern institutions now focus on nurturing every dimension of a child&apos;s development. Among the top girl boarding schools in Dehradun, Ecole Globale stands out for providing a truly holistic environment. Along with academics, students participate in sports, co-curricular activities, and community engagement programs that help them evolve into confident and capable future leaders.
+ Our campus is equipped with advanced facilities and modern technology, thoughtfully designed to enrich every learner&apos;s journey. We take pride in empowering young girls and shaping them into strong, independent women with exceptional leadership qualities. With students joining us from across the country and abroad, Ecole fosters a vibrant, inclusive community built on intelligence, maturity, respect, and shared values. Our experienced faculty members are highly skilled in their respective fields and are committed to delivering meaningful learning beyond the classroom.
 
-Ecole Globale International Girls&apos; School is furnished with all the latest technologies and amenities. We strive to improve women&apos;s representation and mold young girls into strong ladies with excellent leadership qualities.
-
-With girls from all over the country, we have made a diverse atmosphere where students are a part of the mature, smart, and intelligent community of women. The profoundly experienced faculty are the masters of their respective subjects and are always keen to provide knowledge (apart from educational lessons). 
         </p>
         <Link href="https://www.ecoleglobal.in/about-us/">
         <button className="w-[120px] h-[40px] border rounded-full border-white hover:bg-white hover:text-[#ED3137] px-4 py-2 text-[14px] text-center font-semibold">

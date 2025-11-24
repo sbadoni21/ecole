@@ -6,26 +6,26 @@ export default function Life() {
         {
           id: 1,
           image: "/Calendar.svg",
-          title: "Well Planned",
-          subtitle: "Boarding Schedule",
+          title: "Structured",
+          subtitle: "Boarding Life",
         },
         {
           id: 2,
           image: "/Graduate.svg",
-          title: "Life Skills &",
-          subtitle: "Personality Development",
+          title: "Skill Building &",
+          subtitle: "Character Development",
         },
         {
           id: 3,
           image: "/Microscope.svg",
-          title: "Modern Labs &",
-          subtitle: "Classroom",
+          title: "Advanced Labs &",
+          subtitle: "Interactive Classrooms",
         },
         {
           id: 4,
           image: "/Protect.svg",
-          title: "Safety & Security",
-          subtitle: "",
+          title: "Secure  &",
+          subtitle: "Protected Campus",
         },
       ];
     
@@ -82,22 +82,11 @@ export default function Life() {
 
       <div className="w-full md:w-1/2">
         <p className="text-[#848484] text-[18px] leading-relaxed">
-          Laureate Shimla is a hub of diverse cultures, religions, and
-          nationalities, offering a unique and enriching boarding school
-          experience in Shimla. Studying and growing in this institution is
-          a memorable journey for every student. Computer-based classroom
-          learning, sports, cultural events, and excursions prepare students
-          with the skills needed to confidently face life's challenges.
+Ecole Globale brings together students from diverse cultures and regions, creating a dynamic learning environment that enhances the overall boarding school experience. For every girl studying here, life at Ecole becomes a memorable journey filled with strong academics, supportive friendships, and meaningful opportunities. Smart classrooms, sports, cultural events, and educational excursions equip learners with essential skills and confidence to navigate future challenges.
+
           <br />
           <br />
-          The school hostel reflects the essence of home - care, values,
-          discipline, and sacrifice. Sports have always been a key focus at
-          Laureate, with an emphasis on supporting and nurturing students
-          through excellent opportunities in the sports field. Become a part
-          of Ecole Global International Girls School, a renowned name among boarding schools
-          in Shimla and Himachal Pradesh, for an educational journey that
-          combines academic excellence with holistic growth in a supportive
-          and dynamic environment.
+ Our boarding facility reflects the comfort and warmth of home, where discipline, care, values, and emotional support work hand in hand. Sports remain a major priority at Ecole Globale, offering ample opportunities for students to explore, grow, and excel. As one of the finest girl boarding schools in Dehradun, Ecole Globale offers the perfect balance of academic excellence and holistic development, ensuring every student thrives in a secure, nurturing, and inspiring atmosphere.
         </p>
       </div>
     </div>

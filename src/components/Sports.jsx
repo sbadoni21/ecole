@@ -7,7 +7,7 @@ export default function Sports() {
             <div className="flex flex-col items-center justify-center ">
               <h3 className="text-gray-400 mb-3 capitalize">Sports</h3>
               <h1 className="text-[#EC3237] md:text-[29px] text-[18px] font-bold">
-                SPORTS AT ECOLE
+A Core Part of Ecole Life
               </h1>
               <svg
                 viewBox="0 0 100 20"
@@ -25,13 +25,8 @@ export default function Sports() {
             <div className="md:flex md:flex-row md:justify-between flex flex-col items-center">
               <div className="md:w-1/2">
                 <p className="text-[#848484] font-poppins md:text-[18px] text-[14px] md:text-left text-center leading-relaxed mt-4">
-                  In Ecole Globale, sports and physical education are essential
-                  parts of our curriculum. We offer excellent opportunities in
-                  sports, emphasizing the growth and development of our learners. We
-                  strongly believe in sports ability to boost students confidence
-                  and resilience, providing paths for physical, technical, and
-                  mental development. This method promotes teamwork and leadership
-                  skills, which are vital elements of student life at our school.
+                 At Ecole Globale, sports and physical education are essential elements of our curriculum. As one of the most respected girl boarding schools in Dehradun, we offer exceptional sports opportunities that support the physical, mental, and emotional development of our learners.
+ We believe that sports foster confidence and resilience while shaping students physically, technically, and mentally. This approach strengthens crucial life skills such as teamwork, discipline, leadership, and decision-making—making sports an integral part of every student&apos;s experience at Ecole Globale
                 </p>
               </div>
     
