@@ -74,16 +74,16 @@ export default function Popup() {
             </div>
 
             <div className="md:absolute md:right-0 w-[465px] md:bg-transparent bg-white md:top-0 px-6 text-black md:text-white">
-              <div className="flex flex-row justify-between">
+              <div className="flex flex-row justify-between items-center md:mt-6 mt-4 mb-4">
                 <div className="text-center">
-                  <p className="text-[20px] font-bold md:text-[22px] h-16 text-black pt-2">
+                  <p className="text-[20px] font-bold md:text-[22px] text-red-600 pt-2">
                     Enquire Now
                   </p>
               
                 </div>
-                <button className=" -mt-10" onClick={() => setIsOpen(false)}>
+                <div className="" onClick={() => setIsOpen(false)}>
                   <IoClose size={24} />
-                </button>
+                </div>
               </div>
 
               <form onSubmit={sendEmail}>

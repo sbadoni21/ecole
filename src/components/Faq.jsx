@@ -96,7 +96,7 @@ const Faq = () => {
                       alt="icon"
                       width={1000}
                       height={1000}
-                      className={`transform transition-transform w-[50px] duration-300 ${
+                      className={`transform transition-transform max-w-[25px] duration-300 ${
                         activeQuestion === item.id ? "rotate-180" : "rotate-0"
                       }`}
                     />

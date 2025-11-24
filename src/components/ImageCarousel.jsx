@@ -57,7 +57,7 @@ export default function FullScreenCarousel({ interval = 3000 }) {
           onMouseLeave={() => setIsPaused(false)}
         >
           {MOBILE_IMAGES.map((src, i) => (
-            <div key={i} className="min-w-full h-[75vh] relative mt-16">
+            <div key={i} className="min-w-full h-[77vh] relative mt-16">
               <img
                 src={src}
                 alt={`m-slide-${i}`}

@@ -18,9 +18,9 @@ In today&apos;s rapidly evolving educational landscape, learning extends far bey
 
         </p>
         <Link href="https://www.ecoleglobal.in/about-us/">
-        <button className="w-[120px] h-[40px] border rounded-full border-white hover:bg-white hover:text-[#ED3137] px-4 py-2 text-[14px] text-center font-semibold">
+        <div className="flex h-[40px] border rounded-full border-white hover:bg-white hover:text-[#ED3137] px-4 py-2 text-[14px] text-center font-semibold">
           Read more..
-        </button>
+        </div>
         </Link>
       </div>
 
