@@ -55,9 +55,9 @@ export default function Form() {
   };
 
   return (
-    <div className="bg-white px-6 md:pb-6 md:pt-3 py-8 rounded-lg w-full border border-red-500 md:w-[600px] text-black shadow-lg shadow-red-300">
+    <div className="bg-white px-6 md:pb-6 md:pt-3 py-8 rounded-lg w-full border border-[#0F4976] md:w-[600px] text-black shadow-sm shadow-[#0F4976]">
       <div className="text-center">
-        <p className="text-[20px] font-bold md:text-[30px] pt-2 text-red-600">
+        <p className="text-[20px] font-bold md:text-[30px] pt-2 text-[#0F4976]">
           Enquire Now
         </p>
     
@@ -104,7 +104,7 @@ export default function Form() {
           <div className="my-4">
             <button
               type="submit"
-              className="w-full md:h-12 border h-[30px] md:text-[16px] text-[12px] rounded-lg text-center text-[#b0191e] bg-white to-transparent border-[#b0191e] hover:bg-[#b0191e] hover:text-white font-semibold"
+              className="w-full md:h-12 border h-[30px] md:text-[16px] text-[12px] rounded-lg text-center text-[#0F4976] bg-white to-transparent border-[#0F4976] hover:bg-[#0F4976] hover:text-white font-semibold"
               disabled={loading}
             >
               {loading ? "Sending..." : "Submit"}

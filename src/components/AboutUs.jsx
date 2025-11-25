@@ -13,7 +13,7 @@ export default function AboutUsPage() {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <div className="bg-[#b0191e] text-white py-12 md:py-16 px-8 md:px-[99px]">
+      <div className="bg-[#0F4976] text-white py-12 md:py-16 px-8 md:px-[99px]">
         <h1 className="font-bold text-[36px] md:text-[48px] mb-4 mt-48">About Us</h1>
         <p className="text-[16px] md:text-[18px] max-w-3xl italic">
           "Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
@@ -31,8 +31,8 @@ export default function AboutUsPage() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`px-6 py-4 text-[14px] md:text-[16px] font-semibold transition-all relative ${
                   activeTab === tab.id
-                    ? "text-[#b0191e] border-b-4 border-[#b0191e]"
-                    : "text-gray-600 hover:text-[#b0191e]"
+                    ? "text-[#0F4976] border-b-4 border-[#0F4976]"
+                    : "text-gray-600 hover:text-[#0F4976]"
                 }`}
               >
                 {tab.label}
@@ -47,7 +47,7 @@ export default function AboutUsPage() {
         {/* About School Tab */}
         {activeTab === "about" && (
           <div className="animate-fadeIn">
-            <h2 className="font-semibold text-[28px] md:text-[36px] text-[#b0191e] mb-8">
+            <h2 className="font-semibold text-[28px] md:text-[36px] text-[#0F4976] mb-8">
               About School
             </h2>
             <div className="space-y-6 text-[15px] md:text-[16px] text-gray-800 leading-relaxed max-w-5xl">
@@ -58,23 +58,23 @@ While formal education begins inside the classroom, Ecole Globale believes that 
              For future success, students need opportunities to strengthen communication skills, participate in sports, explore creative arts, develop self-belief, and understand the importance of community engagement. At Ecole, these experiences are integrated seamlessly into everyday learning so that each student grows with confidence and clarity.
               </p>
               
-              <div className="bg-gray-50 p-6 md:p-8 rounded-lg border-l-4 border-[#b0191e] my-8">
-                <p className="font-semibold text-[18px] text-[#b0191e] mb-4">
+              <div className="bg-gray-50 p-6 md:p-8 rounded-lg border-l-4 border-[#0F4976] my-8">
+                <p className="font-semibold text-[18px] text-[#0F4976] mb-4">
                   The Four Pillars of Our Foundation
                 </p>
                 <p>
-                  The four pillars which form the foundation of our beliefs are – <span className="font-semibold text-[#b0191e]">Air, Earth, Water, and Fire</span>each representing qualities essential for balance and growth. We guide our students in discovering their individual strengths and encourage them to cultivate these qualities with purpose.
+                  The four pillars which form the foundation of our beliefs are – <span className="font-semibold text-[#0F4976]">Air, Earth, Water, and Fire</span>each representing qualities essential for balance and growth. We guide our students in discovering their individual strengths and encourage them to cultivate these qualities with purpose.
 
                 </p>
               </div>
 
               <p>
-                 Every girl at Ecole Globale receives equal opportunity to learn, grow, and excel—whether in academics, sports, arts, or other pursuits—while keeping holistic development at the core. Recognizing that each learner needs care and attention, we maintain a nurturing environment supported by advanced learning tools and a consistent 1:10 teacher-student ratio.<span className="font-semibold text-[#b0191e]">1:10</span>.
+                 Every girl at Ecole Globale receives equal opportunity to learn, grow, and excel—whether in academics, sports, arts, or other pursuits—while keeping holistic development at the core. Recognizing that each learner needs care and attention, we maintain a nurturing environment supported by advanced learning tools and a consistent 1:10 teacher-student ratio.<span className="font-semibold text-[#0F4976]">1:10</span>.
               </p>
               <p>
 We also offer a dynamic student exchange program that expands global understanding and fosters appreciation for diverse cultures. These experiences help shape confident global citizens and strong future leaders. 
               </p>
-              <p className="font-medium text-[17px] md:text-[18px] text-[#b0191e] mt-8">
+              <p className="font-medium text-[17px] md:text-[18px] text-[#0F4976] mt-8">
 Being at Ecole Globale is a transformative journey—an experience that enriches, educates, and empowers every girl for life beyond school.
               </p>
             </div>
@@ -84,22 +84,22 @@ Being at Ecole Globale is a transformative journey—an experience that enriches
         {/* Vision & Mission Tab */}
         {activeTab === "vision" && (
           <div className="animate-fadeIn">
-            <h2 className="font-semibold text-[28px] md:text-[36px] text-[#b0191e] mb-12 text-center">
+            <h2 className="font-semibold text-[28px] md:text-[36px] text-[#0F4976] mb-12 text-center">
               Vision & Mission
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
               {/* Vision */}
-              <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-[#b0191e]">
-                <h3 className="font-semibold text-[24px] md:text-[28px] text-[#b0191e] mb-4">Vision</h3>
+              <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-[#0F4976]">
+                <h3 className="font-semibold text-[24px] md:text-[28px] text-[#0F4976] mb-4">Vision</h3>
                 <p className="text-[15px] md:text-[16px] text-gray-800 leading-relaxed">
 To help every girl discover her strengths, think independently, and grow into a confident individual who is ready for the opportunities and challenges of the future.
                 </p>
               </div>
 
               {/* Mission */}
-              <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-[#b0191e]">
-                <h3 className="font-semibold text-[24px] md:text-[28px] text-[#b0191e] mb-4">Mission</h3>
+              <div className="bg-white p-8 rounded-lg shadow-lg border-t-4 border-[#0F4976]">
+                <h3 className="font-semibold text-[24px] md:text-[28px] text-[#0F4976] mb-4">Mission</h3>
                 <p className="text-[15px] md:text-[16px] text-gray-800 leading-relaxed">
 Our mission is to create a learning environment where curiosity is encouraged, skills are strengthened, and every student feels motivated to do her best. We use modern teaching methods and supportive technology so that learning continues both inside and outside the classroom.                </p>
               </div>
@@ -120,12 +120,12 @@ Physical fitness is also a core part of our philosophy. We promote healthy habit
         {/* President's Message Tab */}
         {activeTab === "president" && (
           <div className="animate-fadeIn">
-            <h2 className="font-semibold text-[28px] md:text-[36px] text-[#b0191e] mb-8">
+            <h2 className="font-semibold text-[28px] md:text-[36px] text-[#0F4976] mb-8">
               President's Message
             </h2>
             
             <div className="max-w-5xl mx-auto">
-              <div className="bg-gradient-to-r from-[#b0191e] to-[#d62a2f] text-white p-6 md:p-8 rounded-t-lg">
+              <div className="bg-gradient-to-r from-[#0F4976] to-[#d62a2f] text-white p-6 md:p-8 rounded-t-lg">
                 <p className="text-[20px] md:text-[24px] font-semibold">Amarjeet Juneja</p>
                 <p className="text-[14px] md:text-[16px] opacity-90">President, Ecole Globale International Girls&apos; School</p>
               </div>
@@ -138,7 +138,7 @@ At Ecole, we firmly believe that every child has immense potential—sometimes m
 I am fortunate to have a team of dedicated and passionate educators who work tirelessly to guide our girls. Their commitment, combined with the support of parents and the efforts of students, creates a powerful partnership that leads to success. I encourage you to stay connected with the school, remain involved, and continue supporting us as we move forward with the shared goal of shaping bright, independent, and compassionate young women.
   </p>
                 <div className="border-t border-gray-300 pt-6 mt-8">
-                  <p className="font-semibold text-[17px] md:text-[18px] text-[#b0191e]">
+                  <p className="font-semibold text-[17px] md:text-[18px] text-[#0F4976]">
 With warm regards,                  </p>
                   <p className="font-semibold text-[16px] md:text-[17px] text-gray-900 mt-2">
                     Amarjeet Juneja

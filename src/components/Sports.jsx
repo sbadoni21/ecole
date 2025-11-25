@@ -6,7 +6,7 @@ export default function Sports() {
        <section className=" bg-[#F3F3F3] py-10 md:px-20 px-8">
             <div className="flex flex-col items-center justify-center ">
               <h3 className="text-gray-400 mb-3 capitalize">Sports</h3>
-              <h1 className="text-[#b0191e] md:text-[29px] text-[18px] font-bold">
+              <h1 className="text-[#0F4976] md:text-[29px] text-[18px] font-bold">
 A Core Part of Ecole Life
               </h1>
               <svg
@@ -18,7 +18,7 @@ A Core Part of Ecole Life
                   d="M0,10
                C25,8 50,6 100,10
                C50,14 25,12 0,10 Z"
-                  fill="#b0191e"
+                  fill="#0F4976"
                 />
               </svg>
             </div>

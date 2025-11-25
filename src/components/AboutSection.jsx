@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function AboutSection() {
  
   return (
-    <div className="h-auto md:h-[670px] flex flex-col-reverse md:flex-row justify-between bg-white px-8 md:p-[99px] mt-10  gap-8 text-[#b0191e]">
+    <div className="h-auto md:h-[670px] flex flex-col-reverse md:flex-row justify-between bg-white px-8 md:p-[99px] mt-10  gap-8 text-[#0F4976]">
       <div className="flex flex-col w-full md:w-[567px]">
         <h3 className="font-medium text-[22px] md:text-[25px] mb-4">
           WELCOME TO

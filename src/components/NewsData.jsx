@@ -39,7 +39,7 @@ const NewsData = () => {
         <p className="text-[#848484] text-[14px] md:mb-2">
           TO KEEP YOU UP TO DATE WITH US..
         </p>
-        <h2 className="text-[26px] font-bold text-[#b0191e]">NEWS & UPDATES</h2>
+        <h2 className="text-[26px] font-bold text-[#0F4976]">NEWS & UPDATES</h2>
       </div>
 
       <div className="w-full mx-auto">
@@ -55,13 +55,13 @@ const NewsData = () => {
                   alt={item.title}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute top-0 left-4 text-[#FFFFFF] text[12px] px-3.5 py-1 rounded-r-[50px] bg-gradient-to-r from-[#193A65]  to-[#b0191e]">
+                <div className="absolute top-0 left-4 text-[#FFFFFF] text[12px] px-3.5 py-1 rounded-r-[50px] bg-gradient-to-r from-[#193A65]  to-[#0F4976]">
                   {item.category}
                 </div>
               </div>
 
               <div className="px-4 pt-4">
-                <h3 className="text-[14px] font-semibold text-[#b0191e] mb-2">
+                <h3 className="text-[14px] font-semibold text-[#0F4976] mb-2">
                   {item.title}
                 </h3>
                 <p className="text-[#848484] text-[12px] mb-4">
@@ -82,7 +82,7 @@ const NewsData = () => {
 
       <div className="text-center mt-8 text-[14px]">
         <Link href="https://www.ecoleglobal.com/new-blogs/">
-        <button className="inline-block px-6 py-2 border-2 border-[#b0191e] text-[#b0191e] rounded-md hover:bg-[#b0191e] hover:text-white transition-colors duration-300">
+        <button className="inline-block px-6 py-2 border-2 border-[#0F4976] text-[#0F4976] rounded-md hover:bg-[#0F4976] hover:text-white transition-colors duration-300">
           View All Updates
         </button>
         </Link>

@@ -54,13 +54,13 @@ export default function ThankYouPage() {
       <VideoSection />
       <div className="flex flex-col items-center justify-center py-10 bg-gradient-to-b from-blue-50 to-white text-black px-6">
         <div className="rounded-lg p-8 md:p-12 flex flex-col space-y-6 text-center">
-          <h1 className="text-3xl md:text-8xl font-bold text-[#b0191e]">Thank You!</h1>
+          <h1 className="text-3xl md:text-8xl font-bold text-[#0F4976]">Thank You!</h1>
           <p className="text-lg md:text-3xl text-gray-700 leading-relaxed">
             Thank You for your query. Our team will contact you soon.
           </p>
 
           <Link href="/">
-            <button className="md:mt-8 px-6 py-3 md:px-16 text-xl md:py-4 bg-[#b0191e] hover:bg-[#024f72] text-white font-medium rounded-lg transition duration-300 shadow-md">
+            <button className="md:mt-8 px-6 py-3 md:px-16 text-xl md:py-4 bg-[#0F4976] hover:bg-[#024f72] text-white font-medium rounded-lg transition duration-300 shadow-md">
               Back To Home
             </button>
           </Link>

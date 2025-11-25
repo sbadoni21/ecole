@@ -81,7 +81,7 @@ export default function Popup() {
             {/* Right Side - Form */}
             <div className="w-full md:w-1/2 p-6 md:p-8">
               <div className="mb-6">
-                <h2 className="text-2xl md:text-3xl font-bold text-red-600">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#0F4976]">
                   Enquire Now
                 </h2>
                 <p className="text-sm text-gray-600 mt-1">
@@ -151,7 +151,7 @@ export default function Popup() {
 
                 <button
                   type="submit"
-                  className="w-full py-3 mt-2 rounded-lg text-white font-semibold bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full py-3 mt-2 rounded-lg text-white font-semibold bg-[#0F4976] hover:from-red-700 hover:to-red-800 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
                   disabled={loading}
                 >
                   {loading ? "Sending..." : "Submit"}
