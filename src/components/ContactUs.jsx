@@ -46,7 +46,7 @@ const ContactUs = () => {
         </div>
       </div>
 
-      <div className=" px-20 mx-auto  py-16 bg-white">
+      <div className="px-8 md:px-20 mx-auto  py-16 bg-white">
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div className="space-y-8">
