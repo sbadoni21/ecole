@@ -37,7 +37,7 @@ const Navbar = () => {
     {
       title: "BLOGS",
       hasDropdown: false,
-      path: "https://www.ecoleglobale.com/blogs",
+      path: "https://www.ecoleglobale.in/blog/",
     },
   ];
 

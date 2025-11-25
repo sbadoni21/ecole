@@ -81,7 +81,7 @@ const NewsData = () => {
       </div>
 
       <div className="text-center mt-8 text-[14px]">
-        <Link href="https://www.ecoleglobal.com/new-blogs/">
+        <Link href="https://www.ecoleglobal.in/blog/">
         <button className="inline-block px-6 py-2 border-2 border-[#0F4976] text-[#0F4976] rounded-md hover:bg-[#0F4976] hover:text-white transition-colors duration-300">
           View All Updates
         </button>
