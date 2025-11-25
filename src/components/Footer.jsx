@@ -28,8 +28,8 @@ ecoleglobale@gmail.com              </a>
             </div>
             <div className="flex items-center gap-2 justify-center md:justify-start">
               <CiGlobe className="text-lg" />
-              <a href="https://www.ecoleglobale.com/" target="_blank" className="hover:underline">
- www.ecoleglobale.com
+              <a href="https://www.ecoleglobale.in/" target="_blank" className="hover:underline">
+ www.ecoleglobale.in
               </a>
             </div>
             <div className="flex items-center gap-2 justify-center md:justify-start">
