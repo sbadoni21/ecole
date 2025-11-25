@@ -38,7 +38,28 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" type="image/png" href="favicon.ico" />
-        
+           <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Best Girls Boarding School in Dehradun | Admissions 2026-27</title>
+
+    <meta name="description"
+        content="Ecole Globale is one of the leading girls’ boarding schools in Dehradun, offering world-class education, holistic development, and a safe, empowering environment for young learners." />
+
+    <meta name="keywords"
+        content="Ecole Globale, Girls Boarding School Dehradun, Best Girls School Dehradun, Top Residential Schools India, CBSE Girls Boarding, International Girls School, Dehradun Boarding Schools, School Admissions Dehradun, Girls Education India" />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ecole Globale International Girls’ School | Best Girls Boarding School in Dehradun" />
+    <meta property="og:description"
+        content="Ecole Globale is one of the leading girls’ boarding schools in Dehradun, offering world-class education, holistic development, and a safe environment." />
+    <meta property="og:url" content="https://www.ecoleglobale.in/" />
+    <meta property="og:site_name" content="Ecole Globale International Girls’ School" />
+    <meta property="og:image"
+        content="https://www.ecoleglobale.com/wp-content/uploads/2024/03/discover-ecole-globale-international-girls-school.jpg" />
+
         
       
       
